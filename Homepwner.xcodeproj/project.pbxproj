@@ -14,6 +14,12 @@
 		E31EF34B1E983B13003340B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31EF3491E983B13003340B5 /* LaunchScreen.storyboard */; };
 		E31EF3561E983B13003340B5 /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF3551E983B13003340B5 /* HomepwnerTests.swift */; };
 		E31EF3611E983B13003340B5 /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF3601E983B13003340B5 /* HomepwnerUITests.swift */; };
+		E31EF36F1E983D35003340B5 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF36E1E983D35003340B5 /* ItemsViewController.swift */; };
+		E31EF3711E983EE3003340B5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF3701E983EE3003340B5 /* Item.swift */; };
+		E31EF3731E99F6E4003340B5 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF3721E99F6E4003340B5 /* ItemStore.swift */; };
+		E31EF3751E9EADB4003340B5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31EF3741E9EADB4003340B5 /* ItemCell.swift */; };
+		E3E17C531EA1D3F400F513B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E17C521EA1D3F400F513B2 /* DetailViewController.swift */; };
+		E3E17C551EA7063100F513B2 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E17C541EA7063100F513B2 /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		E31EF35C1E983B13003340B5 /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31EF3601E983B13003340B5 /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		E31EF3621E983B13003340B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31EF36E1E983D35003340B5 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		E31EF3701E983EE3003340B5 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E31EF3721E99F6E4003340B5 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		E31EF3741E9EADB4003340B5 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E3E17C521EA1D3F400F513B2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E3E17C541EA7063100F513B2 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				E31EF3401E983B13003340B5 /* AppDelegate.swift */,
 				E31EF3421E983B13003340B5 /* ViewController.swift */,
+				E31EF36E1E983D35003340B5 /* ItemsViewController.swift */,
+				E3E17C521EA1D3F400F513B2 /* DetailViewController.swift */,
+				E31EF3741E9EADB4003340B5 /* ItemCell.swift */,
+				E31EF3721E99F6E4003340B5 /* ItemStore.swift */,
+				E3E17C541EA7063100F513B2 /* ImageStore.swift */,
+				E31EF3701E983EE3003340B5 /* Item.swift */,
 				E31EF3441E983B13003340B5 /* Main.storyboard */,
 				E31EF3471E983B13003340B5 /* Assets.xcassets */,
 				E31EF3491E983B13003340B5 /* LaunchScreen.storyboard */,
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31EF3711E983EE3003340B5 /* Item.swift in Sources */,
 				E31EF3431E983B13003340B5 /* ViewController.swift in Sources */,
+				E31EF3751E9EADB4003340B5 /* ItemCell.swift in Sources */,
+				E3E17C551EA7063100F513B2 /* ImageStore.swift in Sources */,
+				E31EF36F1E983D35003340B5 /* ItemsViewController.swift in Sources */,
+				E31EF3731E99F6E4003340B5 /* ItemStore.swift in Sources */,
 				E31EF3411E983B13003340B5 /* AppDelegate.swift in Sources */,
+				E3E17C531EA1D3F400F513B2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +536,7 @@
 				E31EF3671E983B13003340B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31EF3681E983B13003340B5 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +545,7 @@
 				E31EF36A1E983B13003340B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31EF36B1E983B13003340B5 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +554,7 @@
 				E31EF36D1E983B13003340B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
